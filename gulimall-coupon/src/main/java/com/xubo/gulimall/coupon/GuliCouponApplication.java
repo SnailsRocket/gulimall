@@ -17,6 +17,12 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  *      @Value 获取配置值
  *  如果nacos和配置文件中都配置了相同的项，那么优先使用配置中心中的配置
  *
+ * 2.细节
+ *  1）命名空间
+ *  2）配置集
+ *  3）配置ID
+ *  4）配置分组
+ *  
  */
 @SpringBootApplication
 @EnableDiscoveryClient // 开启服务的注册发现功能
